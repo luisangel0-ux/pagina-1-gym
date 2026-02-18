@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('FondoProv.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+
+section {
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+ 
+.servicios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.servicios li {
+    margin: 10px 0;
+}
+
+.servicios a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.servicios a:hover {
+    text-decoration: underline;
+}
+
+.boton-regresar {
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 30px 0;
+}
+
+.boton-regresar:hover {
+    background-color: #000000;
+}
+
+.ventajas-costos {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 40px;
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.ventajas-costos .ventajas,
+.ventajas-costos .costos {
+    flex: 1;
+    text-align: center;
+}
+
+.ventajas-costos h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.ventajas-costos ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.ventajas-costos li {
+    margin: 8px 0;
+}
+
+.ventajas-costos img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.ventajas-costos video {
+    border-radius: 10px;
+    margin-top: 10px;
+}
